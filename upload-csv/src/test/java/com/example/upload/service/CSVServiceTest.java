@@ -21,34 +21,34 @@ import static org.junit.jupiter.api.Assertions.*;
 class CSVServiceTest {
 
 
-//    @Autowired
-//    private EmpleadoRepository empleadoRepository;
+    @Autowired
+    private EmpleadoRepository empleadoRepository;
 
-//    private CSVService csvService;
+    private CSVService csvService;
 
     @BeforeEach
     void setUp() {
-//        csvService = new CSVService(empleadoRepository);
+        csvService = new CSVService(empleadoRepository);
    }
 
     @AfterEach
     void tearDown() {
-//        empleadoRepository.deleteAll();
+        empleadoRepository.deleteAll();
    }
 
     @Test
     void save() {
 
 
-//        try {
-//            MultipartFile multipartFile = new MockMultipartFile("ejemplo2.csv", new FileInputStream(new File("ejemplo2.csv")));
-//
-//            csvService.save(multipartFile);
-//
-//            System.out.println( "ARCHIVO GENERADO: "+ multipartFile.getOriginalFilename());
-//        } catch (Exception e) {
-//            System.out.println( e.getMessage() );
-//        }
+        try {
+            MultipartFile multipartFile = new MockMultipartFile("ejemplo2.csv", new FileInputStream(new File("ejemplo2.csv")));
+
+            csvService.save(multipartFile);
+
+            System.out.println( "ARCHIVO GENERADO: "+ multipartFile.getOriginalFilename());
+        } catch (Exception e) {
+            System.out.println( e.getMessage() );
+        }
 
 
 
