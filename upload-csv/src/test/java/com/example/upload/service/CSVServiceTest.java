@@ -41,7 +41,7 @@ class CSVServiceTest {
 
 
         try {
-            MultipartFile multipartFile = new MockMultipartFile("ejemplo2.csv", new FileInputStream(new File("ejemplo2.csv")));
+            MultipartFile multipartFile = new MockMultipartFile("datos_a_subir.csv", new FileInputStream(new File("datos_a_subir.csv")));
 
             csvService.save(multipartFile);
 
