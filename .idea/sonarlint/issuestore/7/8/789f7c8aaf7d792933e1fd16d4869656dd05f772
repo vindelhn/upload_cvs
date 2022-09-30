@@ -1,0 +1,17 @@
+
+Q
+java:S18540";Remove this useless assignment to local variable "message".(ðçÓÕ
+Q
+java:S1854+";Remove this useless assignment to local variable "message".(ª“‚‚
+G
+java:S1481#",Remove this unused "message" local variable.(¥Ý£ ÿÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Ó¤®ðûÿÿÿÿ
+u
+java:S1128
+"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8‰­Åø¸0
+b
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8‰­Åø¸0
+a
+java:S1128"?Remove this unused import 'org.springframework.http.MediaType'.(úŸÝ¯þÿÿÿÿ8Š­Åø¸0
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ð¥Å8Š­Åø¸0
