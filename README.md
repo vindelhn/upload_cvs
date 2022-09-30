@@ -1,4 +1,4 @@
-# Sopring Boot Importar csv y subir ftp de empleados MySQL + Docker
+# Sopring Boot Importar csv y subir a ftp de empleados MySQL + Docker
 
 Ejecutar Docker:
 > docker compose up
